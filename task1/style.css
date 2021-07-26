@@ -1,0 +1,379 @@
+*{
+    
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+    
+    
+}
+nav{
+    position: relative;
+    background-image: url("./mountains.jpg");
+    min-height: 500px;
+    width: auto;
+    top:0px;
+    
+    
+}
+nav .containe{
+    margin:0px 300px;
+    padding: 20px;
+}
+.containe{
+    margin: 20px 300px; 
+}
+
+.containe .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.containe .header ul{
+    display:flex;
+    list-style: none;
+    column-gap: 20px;
+}
+.containe .header ul li:hover{
+    color: white;
+}
+.containe .mid{
+    margin-top: 60px;
+    margin-right: 80px;
+
+}
+.containe .mid #header_1st{
+    font-size: 32px;
+    display: block;
+    margin: 15px 0;
+}
+.containe .mid #header_2nd{
+    font-size: 16px;
+    display: block;
+    margin: 12px 50px 12px 0;
+}
+.button{
+    border:10px 3px solid ;
+}
+.containe .mid .button{
+    display: flex;
+    column-gap: 2px;
+    
+}
+
+ .btn1{
+    padding:6px;
+    background-color:yellow ;
+    display: flex;
+    justify-content: center;
+}
+.btn1:hover{
+    background-color: darkblue;
+    color:white;
+    padding: 6px;
+}
+ .center{
+    display: flex;
+    justify-content: center;
+}
+
+/* welcome */
+.circle{
+    background-color: rgb(39, 39, 105);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.circle img{
+    width: 60%;
+    height: auto;
+    margin-left: 6px ;
+    margin-top: 4px;
+}
+
+.containe .center{
+    margin:55px 0;
+}
+.containe #umberall{
+    color: rgb(170, 166, 166);
+    height: auto;
+    width: 25%;
+   
+}
+.containe .des{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    font-size: 32px;
+}
+.subcon{
+    display: flex;
+    position:relative ;
+    
+    margin: 20px;
+    
+    
+}
+ .block{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.subcon .block span{
+    margin: 20px;
+}
+
+.head{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* project */
+.pro{
+    margin:30px;
+}
+.project{
+    width: 400px;
+    height:auto;
+    display: flex;
+}
+.project1{
+    display: flex;
+}
+.projec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projec span{
+    margin: 15px 10px;
+}
+ .pname{
+    font-size: 24px;
+    font-weight: bold;
+}
+.projec .pdes{
+    font-size: 18px;
+    color: grey;
+}
+
+.projec .btn1{
+    margin-left: 50px;
+    width:60%;
+}
+/* zippy team */
+.zippy .head{
+    font-size: 36px;
+    font-weight: bold;
+}
+.team{
+    position: relative;
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    z-index: 2;
+       
+}
+.tea{
+    display: flex;
+    justify-content: space-between;
+}
+.zippy .tea .tdetails .social img{
+    width: 25px;
+    height: auto;
+    z-index: 1;
+}
+.zippy .tea .tdetails .social{
+    display: flex;
+    justify-content: center;
+   position: absolute;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  column-gap: 10px;
+  opacity: 2;
+
+
+}
+.zippy .tea .tdetails .social img:hover,.team:hover{
+    
+}
+.zippy .tea .tdetails .team:hover{
+    background-color: rgb(110, 11, 11);
+    opacity: .5;
+    z-index: 0;
+}
+
+.zippy .tea .tdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.zippy .tea .tdetails .name{
+    text-align: center;
+    font-weight: 500;
+}
+.zippy .tea .tdetails .post{
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
+/* video */
+.vide{
+   
+    background-color: rgb(97, 57, 134);
+}
+.vp{
+    padding: 25px;
+    color: white;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+}
+.videop{
+  
+   width: 400px;
+   height: 400px;
+   margin-bottom: 20px;
+   
+}
+/* pricing table */
+.pricing-card{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pricing-card .block span{
+    margin:5px;
+    display: flex;
+    align-self: center;
+    
+}
+.pricing-card .block  .head{
+    margin-bottom: 5px;
+}
+.pricing-card .block .btn1{
+    width:100px
+}
+.hra{
+    border-left: 2px solid grey;
+    padding-left: 15px;
+    height: 200px;
+}
+/* newsletter signup */
+.news{
+    background-image: url("newsletter.jpg");
+    height: 200px;
+    width: auto;
+}
+.news .head{
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin:10px;
+}
+.news .btn1{
+    width:100px;
+    height: auto;
+    margin:10px;
+   
+}
+
+.news .news-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.news .news-content input{
+    height: 40px;
+    width: 40%;
+}
+/* blog */
+
+.blog-card{
+    display: flex;
+    padding-bottom: 50px;
+}
+.blog-card .block img{
+    width:200px;
+    height: 200px;
+}
+.blog-card span{
+   
+        margin:5px;
+        display: flex;
+        align-self: center;   
+}
+
+.blog-card .block .date{
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 200;
+}
+.blog-card .block .blogc{
+    text-align: center;
+}
+.blog-card .block .btn1{
+    display: flex;
+    justify-content:center;
+    padding:5px;
+}
+/* footer */
+footer .contact{
+    
+    display: flex;
+    padding-bottom: 50px;
+  }
+  .item{
+      padding: 20px 0;
+      background-color: yellow;
+      width: 50%;
+  }
+  .item .head{
+      font-size: 32px;;
+      display: flex;
+      justify-content: center;
+  }
+  .subitem{
+      margin-left: 15px;
+      padding: 10px 10px;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+  }
+  .item .btn1  {
+      color: aliceblue;
+      background-color: rgb(76, 30, 119);
+  }
+  footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px ;
+  }
+
+  /* follow us */
+  .follow .fs {
+      display: flex;
+      justify-content: space-between;
+  }
+  .follow .fs path{
+      fill:black;
+  }
+  .follow .fs .social{
+      width: 15px;
+      height: auto;
+      margin:10px ;
+  }
+  
